@@ -18,3 +18,16 @@
 -- Sakārtot pokemonus pēc augstāka HP (ORDER BY)
 
 -- Izdzēst tos, kam attack mazāks par 50 (DELETE, WHERE)
+
+CREATE TABLE pokemonus (
+  Number INTEGER,
+  Name TEXT,
+  Type_1 TEXT,
+  Type_2 TEXT,
+  Total INTEGER,
+  Hp INTEGER,
+  Attack INTEGER,
+  Defense INTEGER
+);
+INSERT INTO pokemonus (Number, Name, Type_1, Type_2, Total, Hp, Attack, Defense)
+VALUES
